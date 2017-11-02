@@ -11,16 +11,6 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-
     project.add_backer(self)
-    # add the backer (silvia) to the project (notebook)'s backers array
-
-    # binding.pry
-
   end
-
-
-
 end
-
-#
